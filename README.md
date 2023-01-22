@@ -2,21 +2,21 @@
 
 ---
 
-- A partir do Java 8, interfaces podem conter métodos concretos
-- A intenção básica é prover implementação padrão para métodos, de modo a evitar:
- * Repetição de implementação em toda classe 
- * A necessidade de se criar classes abstratas para reuso
- * Manter a retrocompatibilidade 
- * Permitir que interfaces funcionais possam prover outras operações padrão reutilizáveis.
+- A partir do Java 8, interfaces podem conter mÃ©todos concretos
+- A intenÃ§Ã£o bÃ¡sica Ã© prover implementaÃ§Ã£o padrÃ£o para mÃ©todos, de modo a evitar:
+  * RepetiÃ§Ã£o de implementaÃ§Ã£o em toda classe 
+  * A necessidade de se criar classes abstratas para reuso
+  * Manter a retrocompatibilidade 
+  * Permitir que interfaces funcionais possam prover outras operaÃ§Ãµes padrÃ£o reutilizÃ¡veis.
 
 ### Problema exemplo
-Fazer um programa para ler uma quantia e a duração em meses de um empréstimo. Informar o valor a ser pago depois de decorrido o prazo do empréstimo, conforme regras de juros do Brasil. A regra de cálculo de juros do Brasil é juro composto padrão de 2% ao mês.
+Fazer um programa para ler uma quantia e a duraÃ§Ã£o em meses de um emprÃ©stimo. Informar o valor a ser pago depois de decorrido o prazo do emprÃ©stimo, conforme regras de juros do Brasil. A regra de cÃ¡lculo de juros do Brasil Ã© juro composto padrÃ£o de 2% ao mÃªs.
 
 ---
 
-### Considerações extras
+### ConsideraÃ§Ãµes extras
 
 - Interfaces podem prover reuso
-- Temos uma forma de herança múltipla
-  * Mas o compilador reclama se houve mais de um método com a mesma assinatura, obrigando a sobrescrever
-- Interfaces ainda são bem diferentes de classes abstratas. Interfaces não possuem recursos tais como construtores e atributos.
+- Temos uma forma de heranÃ§a mÃºltipla
+  * Mas o compilador reclama se houve mais de um mÃ©todo com a mesma assinatura, obrigando a sobrescrever
+- Interfaces ainda sÃ£o bem diferentes de classes abstratas. Interfaces nÃ£o possuem recursos tais como construtores e atributos.
